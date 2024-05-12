@@ -10,7 +10,7 @@ export const Navbar = () => {
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }: { open: boolean }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl py-2 px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
