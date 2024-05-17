@@ -17,6 +17,7 @@ export default function Home() {
       <Carousel
         autoPlay={true}
         interval={2000}
+        showStatus={false}
         showIndicators={false}
         infiniteLoop={true}
       >
